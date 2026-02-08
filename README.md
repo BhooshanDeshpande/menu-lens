@@ -7,7 +7,7 @@ Menu Lens highlight key details like allergens and taste profiles - so that you 
 ---
 ## Screenshots & Demo
 
-[Demo Video](data/videos/demo.mp4)
+![til](data/videos/demo.gif)
 
 ## Project Overview
 
