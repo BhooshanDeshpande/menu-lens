@@ -1,6 +1,16 @@
 # Menu Lens 🍔
 
-Menu Lens is an AI-powered tool that transforms restaurant text menus into a visual menu. Effortlessly upload photos or search for restaurants (directly in tool), and Menu Lens will extract dish names, show you food order and also provide you for meat or allergen info! 
+Menu Lens (DishCover): A computer vision application that transforms static text menus into interactive visual previews by orchestrating multi-modal AI agents to extract culinary data and retrieve real-world imagery in real-time.
+
+Tech Stack
+Core Logic: Python, Streamlit (Lazy Loading & Caching patterns)
+
+AI & Vision: Google Gemini 2.5 Flash (VLM for OCR & Entity Extraction)
+
+Search & Retrieval: Tavily AI (Context-aware Image Retrieval), SerpApi (Geolocation & Maps Data)
+
+Optimization: concurrent.futures (Parallel Processing)
+
 ---
 
 ## Screenshots & Demo
@@ -126,4 +136,5 @@ MIT License
 ## Contact
 
 For questions or feedback, open an issue or contact the maintainer.
+
 
