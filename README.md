@@ -1,4 +1,5 @@
 # Menu Lens 🍔
+FYI - I created this because I have a hard time searching for food images on Google, especially in Japanese/Chinese restaurants. Hoping to package this up into a mobile based app soon. 
 
 ## Project Overview
 
@@ -120,6 +121,7 @@ MIT License
 ## Contact
 
 For questions or feedback, open an issue or contact the maintainer.
+
 
 
 
