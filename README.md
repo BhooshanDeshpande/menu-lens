@@ -1,10 +1,8 @@
 # Menu Lens 🍔
 
-Menu Lens is an AI-powered tool that transforms restaurant menu images into info rich images of your order. Effortlessly upload photos or search for restaurants, and Menu Lens will extract dish names, generate realistic images for menus which otherwise feel like reading a textbook at a dining table! 
-
-Menu Lens highlight key details like allergens and taste profiles - so that you know what you're exactly going to order!
-
+Menu Lens is an AI-powered tool that transforms restaurant text menus into a visual menu. Effortlessly upload photos or search for restaurants (directly in tool), and Menu Lens will extract dish names, show you food order and also provide you for meat or allergen info! 
 ---
+
 ## Screenshots & Demo
 
 ![til](data/videos/demo.gif)
@@ -128,3 +126,4 @@ MIT License
 ## Contact
 
 For questions or feedback, open an issue or contact the maintainer.
+
