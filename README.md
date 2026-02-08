@@ -1,33 +1,32 @@
 # Menu Lens 🍔
 
-Menu Lens (DishCover): A computer vision application that transforms static text menus into interactive visual previews by orchestrating multi-modal AI agents to extract culinary data and retrieve real-world imagery in real-time.
-
-Tech Stack
-Core Logic: Python, Streamlit (Lazy Loading & Caching patterns)
-
-AI & Vision: Google Gemini 2.5 Flash (VLM for OCR & Entity Extraction)
-
-Search & Retrieval: Tavily AI (Context-aware Image Retrieval), SerpApi (Geolocation & Maps Data)
-
-Optimization: concurrent.futures (Parallel Processing)
-
----
-
-## Screenshots & Demo
-
-![til](data/videos/demo.gif)
-
 ## Project Overview
 
-Menu Lens is a Streamlit app that analyzes restaurant menu images and generates a visual menu with dish photos, descriptions, and allergen/taste tags. It supports manual menu uploads and Google Maps-powered restaurant search.
-
----
+Menu Lens is a Streamlit app that analyzes wordy restaurant menus and generates a visual menu with dish photos, descriptions, and allergen/taste tags.
+- Supports google maps powered restaurant search
+- Searches for best representative image for your dish (based on restaurant's description) so you don't have to guess how it's going to look!
 
 ## Features
 - Upload menu images and extract dish information
 - Search for restaurants via Google Maps and fetch menu photos
 - Visualize dishes with AI-generated images, taste tags, and allergen info
 - Modular codebase for easy maintenance
+  
+## Tech Stack
+* Frontend: Streamlit (Python)
+* Intelligence (VLM): Google Gemini 2.5 Flash (chosen for low latency & high OCR accuracy).
+* Location Data: SerpApi (Google Maps Integration).
+* Visual Retrieval: Tavily AI (Context-aware image search).
+
+## Screenshots & Demo
+
+![til](data/videos/demo.gif)
+
+
+
+---
+
+
 
 ---
 
@@ -80,15 +79,6 @@ Menu Lens is a Streamlit app that analyzes restaurant menu images and generates 
 
 ---
 
-## Tech Stack 
-Frontend: Streamlit (Python)
-Intelligence (VLM): Google Gemini 2.5 Flash (chosen for low latency & high OCR accuracy).
-Location Data: SerpApi (Google Maps Integration).
-Visual Retrieval: Tavily AI (Context-aware image search).
-Optimization: concurrent.futures for parallel processing, Pillow for image optimization.
-
----
-
 ## Key challenges 
 
 ### 1. The "Hallucination" Problem vs. Realism
@@ -110,7 +100,6 @@ Optimization: concurrent.futures for parallel processing, Pillow for image optim
 * **Result:** Application launch time dropped from ~6s to <1s, and the "Read Menu" processing pipeline was accelerated by ~40%.
 
 ## Screenshots
-
 <!-- Upload screenshots to data/images/ and reference them below -->
 
 ![App Screenshot](data/images/1.png)
@@ -120,21 +109,17 @@ Optimization: concurrent.futures for parallel processing, Pillow for image optim
 ---
 
 ## Contributing
-
 1. Fork the repo
 2. Create a feature branch
 3. Submit a pull request
-
 ---
-
 ## License
-
 MIT License
-
 ---
 
 ## Contact
 
 For questions or feedback, open an issue or contact the maintainer.
+
 
 
